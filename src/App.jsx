@@ -36,7 +36,6 @@ export default function App() {
     if (time < bestTime || bestTime === 0) {
       setBestTime(time);
     }
-    return;
   }
 
   function onGameRestart() {
